@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&display=swap");
+
+.navbar {
+  background-color: #252422;
+  color: white;
+  padding: 10px;
+  user-select: none;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center; /* Vertically align items in the middle */
+}
+
+nav {
+  display: flex; /* Make nav a flex container too */
+  align-items: center; /* Vertically align items in the middle */
+}
+a {
+  font-family: "Freeman", sans-serif;
+  font-size: 1.1rem;
+  font-style: bold;
+}
+
+.navList {
+  margin: 0px;
+  padding: 0px;
+  visibility: visible;
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar img {
+  margin-right: 20px;
+}
+
+.navbar a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:last-child {
+  margin-right: 0;
+}
+
+.navbar a:hover {
+  color: #ffd11a;
+}

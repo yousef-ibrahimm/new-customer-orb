@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&display=swap");
+.ad-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #252422;
+}
+
+.text-container {
+  color: white;
+  width: 50%;
+}
+
+.text-container h1 {
+  margin-left: 20px;
+  font-size: 5em;
+  font-family: "Freeman", sans-serif;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.text-container p {
+  font-size: 2em;
+  font-family: "Freeman", sans-serif;
+}
+
+.text-container button {
+  background-color: #ffd11a;
+  font-family: "Freeman", sans-serif;
+  color: black;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.image-container {
+  width: 30%;
+  display: flex;
+  margin-right: 200px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
