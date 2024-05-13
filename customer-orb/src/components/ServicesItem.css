@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Freeman&display=swap");
 
 .service-item-container {
+  padding: 20px;
   align-items: center;
   justify-content: center;
 }
@@ -14,6 +15,7 @@
 }
 
 .service-item-container h2 {
+  padding-top: 20px;
   font-size: 1.8em;
   font-family: "Freeman", sans-serif;
 }
