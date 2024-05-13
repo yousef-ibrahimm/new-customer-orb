@@ -1,0 +1,28 @@
+.services-root {
+  background-color: #403d39;
+  color: white;
+  text-align: center;
+  display: flex; /* Added to apply flexbox layout */
+  flex-direction: column; /* Aligns children vertically */
+  align-items: center; /* Centers children horizontally */
+}
+
+.services-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
+  width: 100%; /* Ensure the container takes full width */
+}
+
+.services-root h1 {
+  font-family: "Freeman", sans-serif;
+  font-size: 3rem;
+  margin-top: 0; /* Adjust top margin as needed */
+}
+
+.services-root h3 {
+  font-family: "Freeman", sans-serif;
+  font-size: 2rem; /* Adjusted from h2 to h3 to match your component */
+  margin-bottom: 1rem; /* Adds space below the subtitle */
+}

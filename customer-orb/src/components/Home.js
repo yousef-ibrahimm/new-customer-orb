@@ -3,17 +3,20 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="ad-container">
+    <div className="ad-container" id="home">
       <div className="text-container">
-        <img
-          src={require("../constants/logoWriting.PNG")}
-          alt="Logo"
-          className="logo"
-        />
-        <h1>Driven to deliver your brand's message</h1>
+        <div class="logo-container">
+          <img
+            src={require("../constants/logoWriting.PNG")}
+            alt="Logo"
+            className="logo"
+          />
+        </div>
+        <h1>We Revolve Around Our Customers</h1>
         <p>
-          Tully and Drive helps build trust in your business by working with
-          stakeholders to share compelling stories.
+          Our mission is to support global companies in outsourcing their
+          business processes by delivering exceptional performance, dedication,
+          and reliability.
         </p>
         <button>FIND OUT HOW</button>
       </div>

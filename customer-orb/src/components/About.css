@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&display=swap");
+.about-container {
+  background-color: #5757ff; /* Adjusted to match the purple background */
+  color: white;
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column; /* Changed to column to stack elements vertically */
+  align-items: center;
+  text-align: center; /* Centered text */
+}
+.about-text-container {
+  width: 60%;
+}
+
+.about-image-container {
+  /* Placeholder for team images styling */
+  width: 100%; /* Adjusted width */
+  height: auto; /* Adjusted height */
+  margin-bottom: 20px; /* Added space between image and text */
+}
+
+.description-container h1 {
+  font-family: "Freeman", sans-serif;
+  font-size: 2rem;
+}
+
+.description-container p {
+  font-family: "Freeman", sans-serif;
+  font-size: 1.2rem;
+}
+
+.title-container {
+  background-color: #ffd11a;
+  color: black;
+  border-radius: 15px;
+}
+
+.about-image-container img {
+  width: 70%;
+  height: auto;
+}

@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&display=swap");
+
+.service-item-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.service-image {
+  width: 120px; /* Adjust the size as needed */
+  height: 120px; /* Adjust the size as needed */
+  margin-bottom: 10px;
+  border: none; /* Add a border if needed */
+  box-shadow: none; /* Add a shadow if needed */
+}
+
+.service-item-container h2 {
+  font-size: 1.8em;
+  font-family: "Freeman", sans-serif;
+}
+
+.service-image-container {
+  padding-top: 30px;
+  height: auto;
+}

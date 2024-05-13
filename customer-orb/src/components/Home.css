@@ -3,11 +3,13 @@
   display: flex;
   justify-content: space-between;
   background-color: #252422;
+  padding: 20px;
 }
 
 .text-container {
   color: white;
   width: 50%;
+  padding-top: 50px;
 }
 
 .text-container h1 {
@@ -16,18 +18,23 @@
   font-family: "Freeman", sans-serif;
 }
 
+.logo-container {
+  user-select: none;
+}
 .logo {
   width: 200px;
   height: 100px;
   margin-right: 10px;
+  user-select: none;
 }
 
 .text-container p {
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "Freeman", sans-serif;
 }
 
 .text-container button {
+  user-select: none;
   background-color: #ffd11a;
   font-family: "Freeman", sans-serif;
   color: black;
